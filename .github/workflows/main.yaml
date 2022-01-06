@@ -20,6 +20,7 @@ jobs:
     name : Build
     runs-on: ubuntu-latest
     steps:
+
       # - uses: actions/checkout@v2
       #   env: 
       #     NODE_ENV: dev
@@ -28,9 +29,11 @@ jobs:
       #   run: npm install
 
       # Runs a set of commands using the runners shell
-     
-      
-      - uses: aws-actions/configure-aws-credentials@v1
+      - name: Show files
+
+       run: 
+            ls -a
+ - uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
