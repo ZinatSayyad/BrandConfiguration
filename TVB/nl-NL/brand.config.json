@@ -1,0 +1,55 @@
+{
+    "brandConfig": {
+        "brand": "thevegetarianbutcher",
+        "locale": "nl-NL",
+        "brandCode": "BFA077",
+        "entity":"PRM2.6"
+      },
+      "localization": {
+        "supportedLocales": ["en-GB", "en-SG", "es-ES","nl-NL","de-DE"],
+        "default": "en-GB"
+      },
+    "WebStorageKey": {
+        "i18n" : "i18n",
+        "state" :"state"
+    },
+    "formV3":{
+      "headers":{
+        "isoLanguage": "nl",
+        "isoCountry": "NL",
+        "formType": "signUp",
+        "entity": "PRM2.6",
+        "origin": "website",
+        "brandCode": "BFA077",
+        "campaignId": "CN000631",
+        "campaignDescription": ""
+      }
+    }, 
+    "optins":{
+        "brand_optin_wording_email": "Ja - jeg ønsker at modtage oplysninger fra The Vegetarian Butcher om nye produkter og tjenester via e-mail",
+        "privacy_notice": "Læs vores <a href=\"https://www.unilevernotices.com/netherlands/dutch/privacy-notice/notice.html\" target=\"_blank\">fortroligheds-</a> og <a href=\"https://www.unilevernotices.com/netherlands/dutch/cookie-notice/notice.html\" target=\"_blank\">cookie-erklæring</a> for at forstå, hvordan vi bruger dine personlige oplysninger",
+        "age_consent": "Ja - Jeg bekræfter at jeg er over 16 år eller ældre",
+        "unilever_optin_wording": "Ja - jeg giver mit samtykke til, at mine oplysninger bliver delt med andre af Unilevers mærker for at modtage de seneste nyheder om andre af Unilevers produkter og tjenester.",
+        "brand_optin_wording": "Ja - jeg ønsker at modtage oplysninger fra The Vegetarian Butcher om nye produkter og tjenester",
+        "iso_country_code": "NL",
+        "brand_optin_wording_mobile": "Ja - jeg ønsker at modtage oplysninger fra The Vegetarian Butcher om nye produkter og tjenester via mobiltelefon",
+        "language": "nl"
+    },
+    "pageUrl":{
+      "login":"/login",
+      "signUp":"/sign"
+    },
+    "redirectURLs":{
+      "loginSuccess":"https://www.magnumicecream.com/br/home.html",
+      "registrationSuccess":"https://www.magnumicecream.com/br/home.html",
+      "changePasswordSuccess":"https://www.magnumicecream.com/br/home.html",
+      "profileOverview":"https://www.magnumicecream.com/br/home.html",
+      "editProfile":"https://www.magnumicecream.com/br/home.html",
+      "changePassword":"https://www.magnumicecream.com/br/home.html",
+      "loginPage":"https://www.magnumicecream.com/br/home.html",
+      "signUp":"https://www.magnumicecream.com/br/home.html",
+      "forgotPassword":"https://www.magnumicecream.com/br/home.html"
+      
+    }
+    
+}
